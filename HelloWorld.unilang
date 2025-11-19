@@ -1,0 +1,5 @@
+contract HelloWorld {
+  receive sayHello() {
+    emit Hello();
+  }
+}

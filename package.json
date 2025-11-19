@@ -1,0 +1,15 @@
+{
+  "name": "unilang-compiler",
+  "version": "0.1.0",
+  "description": "Prototype compiler for the UNILANG universal computation language.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node dist/index.js examples/HelloWorld.unilang evm"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
